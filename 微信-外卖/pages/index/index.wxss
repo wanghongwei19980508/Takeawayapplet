@@ -1,0 +1,278 @@
+.clear{
+  clear: both;
+}
+.top{
+  height: 353rpx;
+  width: 750rpx;
+  background-color: #159FFD;
+  border-bottom-left-radius: 45%;
+  border-bottom-right-radius: 45%;
+}
+.Store-name{
+  height: 88rpx;
+  line-height: 88rpx;
+  font-size: 32rpx;
+  margin-left: 25rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #FFFFFF;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.position-img{
+  width: 42rpx;
+  height: 48rpx;
+  margin-left: 25rpx;
+  float: left;
+}
+.Geographical-position{
+  float: left;
+  margin-left: 10rpx;
+  font-size: 36rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #FFFFFF;
+  line-height: 42rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.moreposition-img{
+  width: 15rpx;
+  height: 26rpx;
+  margin-left: 25rpx;
+  margin-top:8rpx;
+  float: left;
+}
+.title{
+  width: 700rpx;
+  height: 364rpx;
+  position: absolute;
+  top:160rpx;
+  left: 25rpx;
+  background: #FFFFFF;
+  box-shadow: 0rpx 20rpx 38rpx 0rpx rgba(255, 191, 33, 0.08);
+  border-radius: 15rpx 15rpx 0rpx 0rpx;
+}
+.Search-box{
+  width: 640rpx;
+  height: 64rpx;
+  background: #F2F2F2;
+  border-radius: 32rpx;
+  margin:  40rpx 30rpx 20rpx 30rpx;
+}
+.Search-box>image{
+  width: 32rpx;
+  height: 32rpx;
+  margin: 16rpx 30rpx;
+  float: left;
+}
+.Search-box>input{
+  float: left;
+  font-size: 24rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #808080;
+  line-height: 64rpx;
+}
+.Rotating-frame{
+  width: 640rpx;
+  height: 200rpx;  
+  margin:  0 30rpx 30rpx 30rpx;
+}
+.Rotating-frame>image{
+  width: 640rpx;
+  height: 200rpx;  
+}
+.choose-box{
+  width: 640rpx;
+  height: 224rpx;
+  margin: 190rpx 25rpx 25rpx 25rpx;
+  background: #FFFFFF;
+  box-shadow: 0rpx 20rpx 38rpx 0rpx rgba(255, 191, 33, 0.08);
+  border-radius: 15rpx 15rpx 0rpx 0rpx;
+  padding: 0 30rpx 0 30rpx;
+}
+.choose-box>view{
+  width: 210rpx;
+  float: left;
+  height: 223rpx;
+  margin-left: 5rpx;
+}
+.choose-box>view:nth-child(1){
+  margin-left: 0;
+}
+.choose-box>view>image{
+  width: 120rpx;
+  height: 120rpx;
+  border-radius: 50%;
+  margin:29rpx 45rpx 0 45rpx; 
+}
+.choose-box>view>text{
+  width: 210rpx;
+  height: 50rpx;
+  margin:12rpx 0 12rpx 0; 
+  line-height: 50rpx;
+  text-align: center;
+  display: inline-block;
+  font-size: 32rpx;
+}
+.choiceness-box{
+  border-top: #D9D9D9 1rpx solid;
+  height: 638rpx;
+  width: 700rpx;
+  margin: 0 25rpx 25rpx 25rpx;
+  background: #FFFFFF;
+  box-shadow: 0rpx 20rpx 38rpx 0rpx rgba(255, 191, 33, 0.08);
+  border-radius: 15rpx;
+}
+.title-top{
+  height: 78rpx;
+  width: 700rpx;
+}
+.title-top>image:nth-child(1){
+  height: 60rpx;
+  width: 12rpx;
+  margin: 9rpx 10rpx;
+  float: left;
+  display: inline-block;
+}
+.title-top>text:nth-child(2){
+  height: 60rpx;
+  margin: 9rpx 0;
+  line-height: 60rpx;
+  float: left;
+  display: inline-block;
+  font-size: 32rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #000000;
+}
+.title-top>image:nth-child(3){
+  height: 60rpx;
+  width: 12rpx;
+  margin: 9rpx 10rpx;
+  float: right;
+  display: inline-block;
+}
+.title-top>text:nth-child(4){
+  height: 60rpx;
+  margin: 9rpx 0;
+  line-height: 60rpx;
+  float: right;
+  display: inline-block;
+  font-size: 24rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #808080;
+}
+.Selected-display{
+  width: 678rpx;
+  height: 560rpx;
+  background: #FFFFFF;
+  box-shadow: 0rpx 20rpx 38rpx 0rpx rgba(255, 191, 33, 0.08);
+  border-radius: 15rpx;
+  padding: 0 11rpx;
+}
+.Selected-display>view{
+  width: 226rpx;
+  height: 280rpx;
+  border-radius: 12rpx;
+  float: left;
+}
+.Selected-display>view>image{
+  width: 204rpx;
+  height: 180rpx;
+  background: #159FFD;
+  border-radius: 12rpx;
+  margin: 22rpx 11rpx 20rpx 11rpx;
+}
+.Selected-display>view>text{
+  display: inline-block;
+  width: 226rpx;
+  height: 26rpx;
+  font-size: 28rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #000000;
+  line-height: 26rpx;
+  text-align: center;
+}
+.Affordable-box{
+  border-top: #D9D9D9 1rpx solid;
+  height: 506rpx;
+  width: 700rpx;
+  margin: 0 25rpx 25rpx 25rpx;
+  background: #FFFFFF;
+  box-shadow: 0rpx 20rpx 38rpx 0rpx rgba(255, 191, 33, 0.08);
+  border-radius: 15rpx;
+}
+.Affordable{
+  width: 678rpx;
+  height: 428rpx;
+  background: #FFFFFF;
+  box-shadow: 0rpx 20rpx 38rpx 0rpx rgba(255, 191, 33, 0.08);
+  border-radius: 15rpx;
+  padding: 0 11rpx;
+}
+.Affordable>view{
+  width: 226rpx;
+  height: 428rpx;
+  border-radius: 12rpx;
+  float: left;
+}
+.Affordable>view>image{
+  width: 204rpx;
+  height: 180rpx;
+  background: #159FFD;
+  border-radius: 12rpx;
+  margin: 22rpx 11rpx 20rpx 11rpx;
+}
+.Affordable>view>text{
+  display: inline-block;
+  width: 226rpx;
+  height: 26rpx;
+  font-size: 28rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #000000;
+  line-height: 26rpx;
+  text-align: center;
+}
+.Affordable>view>text:nth-child(3){
+  display: inline-block;
+  width: 113rpx;
+  height: 26rpx;
+  font-size: 28rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #FF0018;
+  line-height: 26rpx;
+  text-align: center;
+}
+.Affordable>view>text:nth-child(4){
+  display: inline-block;
+  width: 113rpx;
+  height: 26rpx;
+  font-size: 20rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #808080;
+  line-height: 26rpx;
+  text-align: left;
+  text-decoration: line-through;
+}
+.Affordable>view>button{
+  background: #E50016;
+  border-radius: 25rpx;
+  width: 160rpx;
+  height: 50rpx;
+  margin: 20rpx 30rpx;
+  line-height: 50rpx;
+  font-size: 28rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #FFFFFF;
+  padding: 0;
+}

@@ -1,0 +1,4 @@
+<view>{{player.provinceName}}{{player.cityName}}{{player.countyName}}{{player.detailInfo}}</view>
+<view>{{player.userName}}</view>
+<view>{{player.telNumber}}</view>
+<button bindtap="choose_address">地址</button>

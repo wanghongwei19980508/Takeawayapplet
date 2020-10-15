@@ -1,0 +1,8 @@
+<!-- <view class="map_container"> 
+  <map class="map" id="map" longitude="{{longitude}}" latitude="{{latitude}}" scale="14" show-location="true" markers="{{markers}}" bindmarkertap="makertap"></map> 
+</view>  -->
+<view class="rgc_info"> 
+  <text>{{address}}</text> 
+  <text>{{map.address}}</text> 
+  <text>{{business}}</text> 
+</view>

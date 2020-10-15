@@ -1,0 +1,66 @@
+<view class="top">
+  <view class="Store-name">悠奕外卖</view>
+  <view class="address-box" bindtap="changeaddress">
+    <image src="../img/地址.png" class="position-img"></image>
+    <view wx:if="{{Address.address_num>18}}">
+      <text class="Geographical-position" style="width: 600rpx;">{{Address.address}}</text>
+    </view>
+    <view wx:else>
+      <text class="Geographical-position">{{Address.address}}</text>
+    </view>
+    <image src="../img/地址.png" class="moreposition-img"></image>
+  </view>
+  <view class="clear"></view>
+</view>
+<block>
+  <view class="title">
+    <view class="Search-box">
+      <image  src="../img/搜索.png" mode="aspectFill"></image><input value="" placeholder="点击此处进行搜索相关商品"></input>
+    </view>
+    <view class="Rotating-frame">
+      <image  src="../img/1.png" mode="aspectFill"></image>
+    </view>
+  </view>
+  <view class="choose-box">
+      <view ><image src="../img/1.png" mode="aspectFill"></image><text>外卖</text></view>
+      <view ><image src="../img/1.png" mode="aspectFill"></image><text>水果</text></view>
+      <view ><image src="../img/1.png" mode="aspectFill"></image><text>零食</text></view>
+  </view>
+  <view class="choiceness-box">
+    <view class="title-top">
+      <image src="../img/1.png" mode="aspectFill"></image>
+      <text>为您精选</text>
+      <image src="../img/1.png" mode="aspectFill"></image>
+      <text>更多</text>
+    </view>
+    <view class="Selected-display">
+      <view wx:for="{{choiceness}}" wx:key="">
+        <image src="{{item.src}}"></image>
+        <text>{{item.text}}</text>
+      </view>
+    </view>
+  </view>
+  <view class="Affordable-box">
+    <view class="title-top">
+      <image src="../img/1.png" mode="aspectFill"></image>
+      <text>为您精选</text>
+      <image src="../img/1.png" mode="aspectFill"></image>
+      <text>更多</text>
+    </view>
+    <view class="Affordable">
+      <view wx:for="{{Affordable}}" wx:key="">
+        <image src="{{item.src}}"></image>
+        <text>{{item.text}}</text>
+        <text>{{item.num}}</text>
+        <text>{{item.originalnum}}</text>
+        <button id="{{item.id}}">立即购买</button>
+      </view>
+    </view>
+  </view>
+  <view class="button_box">
+    <view></view>
+    <view></view>
+    <view></view>
+  </view>
+</block>
+
